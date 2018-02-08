@@ -1,0 +1,317 @@
+var cards = [
+{
+	"suit": "clubs",
+	"value": "A",
+	"img": "U+1F0D1",
+	"points": 11
+}
+{
+	"suit": "clubs",
+	"value": "2",
+	"img": "U+1F0D2",
+	"points": 2
+}
+{
+	"suit": "clubs",
+	"value": "3",
+	"img": "U+1F0D3",
+	"points": 3
+}
+{
+	"suit": "clubs",
+	"value": "4",
+	"img": "U+1F0D4",
+	"points": 4
+}
+{
+	"suit": "clubs",
+	"value": "5",
+	"img": "U+1F0D5",
+	"points": 5
+}
+{
+	"suit": "clubs",
+	"value": "6",
+	"img": "U+1F0D6",
+	"points": 6
+}
+{
+	"suit": "clubs",
+	"value": "7",
+	"img": "U+1F0D7",
+	"points": 7
+}
+{
+	"suit": "clubs",
+	"value": "8",
+	"img": "U+1F0D8",
+	"points": 8
+}
+{
+	"suit": "clubs",
+	"value": "9",
+	"img": "U+1F0D9",
+	"points": 9
+}
+{
+	"suit": "clubs",
+	"value": "10",
+	"img": "U+1F0DA",
+	"points": 10
+}
+{
+	"suit": "clubs",
+	"value": "J",
+	"img": "U+1F0DB",
+	"points": 10
+}
+{
+	"suit": "clubs",
+	"value": "Q",
+	"img": "U+1F0DD",
+	"points": 10
+}
+{
+	"suit": "clubs",
+	"value": "K",
+	"img": "U+1F0DE",
+	"points": 10
+}
+
+{
+	"suit": "diamonds",
+	"value": "A",
+	"img": "U+1F0C1",
+	"points": 11
+}
+{
+	"suit": "diamonds",
+	"value": "2",
+	"img": "U+1F0C2",
+	"points": 2
+}
+{
+	"suit": "diamonds",
+	"value": "3",
+	"img": "U+1F0C3",
+	"points": 3
+}
+{
+	"suit": "diamonds",
+	"value": "4",
+	"img": "U+1F0C4",
+	"points": 4
+}
+{
+	"suit": "diamonds",
+	"value": "5",
+	"img": "U+1F0C5",
+	"points": 5
+}
+{
+	"suit": "diamonds",
+	"value": "6",
+	"img": "U+1F0C6",
+	"points": 6
+}
+{
+	"suit": "diamonds",
+	"value": "7",
+	"img": "U+1F0C7",
+	"points": 7
+}
+{
+	"suit": "diamonds",
+	"value": "8",
+	"img": "U+1F0C8",
+	"points": 8
+}
+{
+	"suit": "diamonds",
+	"value": "9",
+	"img": "U+1F0C9",
+	"points": 9
+}
+{
+	"suit": "diamonds",
+	"value": "10",
+	"img": "U+1F0CA",
+	"points": 10
+}
+{
+	"suit": "diamonds",
+	"value": "J",
+	"img": "U+1F0CB",
+	"points": 10
+}
+{
+	"suit": "diamonds",
+	"value": "Q",
+	"img": "U+1F0CD",
+	"points": 10
+}
+{
+	"suit": "diamonds",
+	"value": "K",
+	"img": "U+1F0CE",
+	"points": 10
+}
+
+{
+	"suit": "hearts",
+	"value": "A",
+	"img": "U+1F0B1",
+	"points": 11
+}
+{
+	"suit": "hearts",
+	"value": "2",
+	"img": "U+1F0B2",
+	"points": 2
+}
+{
+	"suit": "hearts",
+	"value": "3",
+	"img": "U+1F0B3",
+	"points": 3
+}
+{
+	"suit": "hearts",
+	"value": "4",
+	"img": "U+1F0B4",
+	"points": 4
+}
+{
+	"suit": "hearts",
+	"value": "5",
+	"img": "U+1F0B5",
+	"points": 5
+}
+{
+	"suit": "hearts",
+	"value": "6",
+	"img": "U+1F0B6",
+	"points": 6
+}
+{
+	"suit": "hearts",
+	"value": "7",
+	"img": "U+1F0B7",
+	"points": 7
+}
+{
+	"suit": "hearts",
+	"value": "8",
+	"img": "U+1F0B8",
+	"points": 8
+}
+{
+	"suit": "hearts",
+	"value": "9",
+	"img": "U+1F0B9",
+	"points": 9
+}
+{
+	"suit": "hearts",
+	"value": "10",
+	"img": "U+1F0BA",
+	"points": 10
+}
+{
+	"suit": "hearts",
+	"value": "J",
+	"img": "U+1F0BB",
+	"points": 10
+}
+{
+	"suit": "hearts",
+	"value": "Q",
+	"img": "U+1F0BD",
+	"points": 10
+}
+{
+	"suit": "hearts",
+	"value": "K",
+	"img": "U+1F0BE",
+	"points": 10
+}
+
+{
+	"suit": "spades",
+	"value": "A",
+	"img": "U+1F0A1",
+	"points": 11
+}
+{
+	"suit": "spades",
+	"value": "2",
+	"img": "U+1F0A2",
+	"points": 2
+}
+{
+	"suit": "spades",
+	"value": "3",
+	"img": "U+1F0A3",
+	"points": 3
+}
+{
+	"suit": "spades",
+	"value": "4",
+	"img": "U+1F0A4",
+	"points": 4
+}
+{
+	"suit": "spades",
+	"value": "5",
+	"img": "U+1F0A5",
+	"points": 5
+}
+{
+	"suit": "spades",
+	"value": "6",
+	"img": "U+1F0A6",
+	"points": 6
+}
+{
+	"suit": "spades",
+	"value": "7",
+	"img": "U+1F0A7",
+	"points": 7
+}
+{
+	"suit": "spades",
+	"value": "8",
+	"img": "U+1F0A8",
+	"points": 8
+}
+{
+	"suit": "spades",
+	"value": "9",
+	"img": "U+1F0A9",
+	"points": 9
+}
+{
+	"suit": "spades",
+	"value": "10",
+	"img": "U+1F0AA",
+	"points": 10
+}
+{
+	"suit": "spades",
+	"value": "J",
+	"img": "U+1F0AB",
+	"points": 10
+}
+{
+	"suit": "spades",
+	"value": "Q",
+	"img": "U+1F0AD",
+	"points": 10
+}
+{
+	"suit": "spades",
+	"value": "K",
+	"img": "U+1F0AE",
+	"points": 10
+}
+]

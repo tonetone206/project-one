@@ -77,7 +77,6 @@ var cards = [
 	"img": "U+1F0DE",
 	"points": 10
 }
-
 {
 	"suit": "diamonds",
 	"value": "A",
@@ -156,7 +155,6 @@ var cards = [
 	"img": "U+1F0CE",
 	"points": 10
 }
-
 {
 	"suit": "hearts",
 	"value": "A",
@@ -235,7 +233,6 @@ var cards = [
 	"img": "U+1F0BE",
 	"points": 10
 }
-
 {
 	"suit": "spades",
 	"value": "A",

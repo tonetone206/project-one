@@ -1,38 +1,26 @@
 h2 {
 	text-align: center;
+	color: white;
+	font-family: arial;
 }
 li {
 	list-style-type: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-/*h1 {
-	text-align: center;
 	color: white;
+	font-family: arial;
 }
 body {
-	background: darkgreen;
-	text-align: center;
+	background: linear-gradient(darkgreen, grey);
 }
-button {
-	width: 200px;
+#resultat {
+	color: white;
+	font-family: arial;
 }
-footer {
+#stat {
+	color: white;
+	font-family: arial;
+}
+#ul {
+	color: white;
+	font-family: arial;
+}
 
-}
-#container {
-	background: grey;
-	justify-content: space-between;
-}
-.box {
-	background: grey; 	
-}*/
